@@ -34,11 +34,17 @@ The Line Tail visualization transforms time series data into a dynamic phase spa
 
 The Flow Field visualization extends beyond individual trajectories by transforming time series data into a comprehensive vector field that represents the typical direction and magnitude of movement between consecutive points throughout the entire phase space. By calculating velocity vectors between sequential data points and then interpolating these vectors across regions with sparse or no data, the flow field reveals the underlying "force" patterns that govern how the system typically evolves from any given state. When rendered as streamlines, this visualization exposes critical dynamical features such as stable attractors (where streamlines converge), repellers (where streamlines diverge), saddle points (transition regions between different attractors), and basins of attraction (regions where all trajectories lead to the same attractor).
 
+![Unknown](https://github.com/user-attachments/assets/cecd829d-8858-4d99-8d36-8c95012725b5)
+
+![Unknown-2](https://github.com/user-attachments/assets/74f1eefa-68a0-43af-aa7b-d6d66045a667)
+
 #### Joint Interval Distribution (JID)
 
 The Joint Interval Distribution (JID) visualization quantifies the statistical relationships between consecutive values in a time series by creating a 2D histogram that maps transition frequencies, with the current value on one axis and the subsequent value on the other. Unlike the previous visualizations that focus on trajectories and dynamics, the JID reveals the probability structure of transitions, with bright areas indicating frequently occurring transitions and dark areas showing rare or impossible transitions in the system's evolution. This visualization is particularly powerful for identifying multimodal dynamics, where the system has multiple distinct behavioral states, as these appear as separate "islands" or clusters of high intensity in the distribution.
 
 ![JID Animation Example](jid.gif)
+
+![Unknown-3](https://github.com/user-attachments/assets/fbd262b8-15dd-4037-ac77-134e51533745)
 
 ## Technical Implementation
 
