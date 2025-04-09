@@ -31,7 +31,7 @@ The Line Tail visualization transforms time series data into a dynamic phase spa
 ![Line Tail Animation Example](linetail.gif)
 
 This is another line tail animation example with a bigger dataset and adjusted window, bin, and step sizes.
-![another_linetail](https://github.com/user-attachments/assets/2bf46c9c-a09f-4422-aa06-97f35fcb4d78)
+![fulltraject-short](https://github.com/user-attachments/assets/e7f05c9c-6024-4930-af0d-fbaae40f6909)
 
 #### Flow Field Analysis
 
