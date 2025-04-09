@@ -30,6 +30,9 @@ The Line Tail visualization transforms time series data into a dynamic phase spa
 
 ![Line Tail Animation Example](linetail.gif)
 
+This is another line tail animation example with a bigger dataset and adjusted window, bin, and step sizes.
+![another_linetail](https://github.com/user-attachments/assets/2bf46c9c-a09f-4422-aa06-97f35fcb4d78)
+
 #### Flow Field Analysis
 
 The Flow Field visualization extends beyond individual trajectories by transforming time series data into a comprehensive vector field that represents the typical direction and magnitude of movement between consecutive points throughout the entire phase space. By calculating velocity vectors between sequential data points and then interpolating these vectors across regions with sparse or no data, the flow field reveals the underlying "force" patterns that govern how the system typically evolves from any given state. When rendered as streamlines, this visualization exposes critical dynamical features such as stable attractors (where streamlines converge), repellers (where streamlines diverge), saddle points (transition regions between different attractors), and basins of attraction (regions where all trajectories lead to the same attractor).
